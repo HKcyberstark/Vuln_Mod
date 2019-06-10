@@ -21,10 +21,12 @@ The [Open Vulnerability Assessment System](http://www.openvas.org/) (OpenVAS) is
 
 ## System Requirements
 Below are the basic system requirements for dev environment.  Higher memory and hard drive space depends on the number of scans and data load
+
 **Server 1: OpenVAS and Vulnwhisperer**  
 - 2 CPUs
 - 3GB of memory
 - 30GB of hard drive (this depends on number of scans and how much data you will retain)
+
 **Server 2: Elastic Stack**
 - 2 CPUs
 - 4GB of memory
@@ -43,5 +45,7 @@ Logstash and Kibana Visualisation configurations are available in config section
 The module is an integration of OpenVas Vulnerability assesment tool wih Elastic stack using Vulnwhisperer. credits to all the brains behind these open source projects.
 
 [Vulnwhisperer](https://github.com/HASecuritySolutions/VulnWhisperer)
+
 [Elastic stack](https://github.com/HASecuritySolutions/VulnWhisperer)
+
 [OpenVAS](http://www.openvas.org/)
