@@ -1,4 +1,4 @@
-## ElasticSearch
+### ElasticSearch
 1. Install the Elastic repository and its GPG key
 
 `rpm --import https://packages.elastic.co/GPG-KEY-elasticsearch`
@@ -28,7 +28,7 @@ systemctl enable elasticsearch.service
 systemctl start elasticsearch.service
 ```
 
-## Kibana
+### Kibana
 1. Install the Kibana package
 
 `yum install kibana-7.1.1`
@@ -48,7 +48,7 @@ systemctl start kibana.service
 
 `sed -i "s/^enabled=1/enabled=0/" /etc/yum.repos.d/elastic.repo`
 
-## Logstash
+### Logstash
 1. Install the Logstash package
 
 `yum install logstash-7.1.1`
