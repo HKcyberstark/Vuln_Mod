@@ -18,23 +18,17 @@
 
 *change enabled to true, provide username and passoword of openVAS*
 
+```
 [openvas]
-
 enabled = true
-
 hostname = localhost
-
 port = 4000
-
 username = exampleuser
-
 password = examplepass
-
 write_path=/opt/VulnWhisperer/data/openvas/
-
 db_path=/opt/VulnWhisperer/data/database
-
 verbose=true
+```
 
 
 4. Run VulnWhisperer
