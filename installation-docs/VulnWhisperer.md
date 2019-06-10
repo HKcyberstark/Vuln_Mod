@@ -8,11 +8,11 @@
 
 `python setup.py install`
 
-*(Optional) If using a proxy, add proxy URL as environment variable to PATH
+*(Optional) If using a proxy, add proxy URL as environment variable to PATH*
 
-export HTTP_PROXY=http://example.com:8080
+*export HTTP_PROXY=http://example.com:8080*
 
-export HTTPS_PROXY=http://example.com:8080*
+*export HTTPS_PROXY=http://example.com:8080*
 
 3. Configure Ini file to collect OpnVas scan results. edit openVas section as below in the frameworks_example.ini available in the configs folder inside Vulnwhisperer clone.
 
