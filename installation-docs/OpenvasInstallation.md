@@ -5,9 +5,9 @@
 
 2. Open the necessary port for OpenVAS web interface right away
 
-`firewall-cmd --zone=public --add-port=9392/tcp --permanent
+`firewall-cmd --zone=public --add-port=9392/tcp --permanent`
 
-firewall-cmd –reload`
+`firewall-cmd –reload`
 
 3. install the wget package and net tools
 
@@ -19,9 +19,9 @@ firewall-cmd –reload`
 
 *Note: If you have issues with ‘updates’ in the wget URL above, using either ‘www’ or ‘www6’ works instead. For example,*
 
-`wget -q -O – https://www.atomicorp.com/installers/atomic | sh
+`wget -q -O – https://www.atomicorp.com/installers/atomic | sh`
 
-wget -q -O – https://www6.atomicorp.com/installers/atomic | sh`
+`wget -q -O – https://www6.atomicorp.com/installers/atomic | sh`
 
 ### Installing/Configuring OpenVAS (GVM)
 1. Install OpenVAS (GVM) and related dependencies. (This will install over 300MB of dependencies so be patient.)
@@ -30,9 +30,9 @@ wget -q -O – https://www6.atomicorp.com/installers/atomic | sh`
 
 2. When yum completes, uncomment the following 2 unixsocket-related lines in the /etc/redis.conf file
 
-`unixsocket /tmp/redis.sock
+`unixsocket /tmp/redis.sock`
 
-unixsocketperm 700`
+`unixsocketperm 700`
 
 *Note: You can also below ‘sed’ command to uncomment the unixsocket line directly.*
 
@@ -56,9 +56,9 @@ Once openvas-setup completes and some keys are generated, you will receive the p
 
 5. Run the below Two commands to start gsad on port 9392 as the package states.
 
-`echo 'OPTIONS="--listen=0.0.0.0 --port=9392"' > /etc/sysconfig/gsad
+`echo 'OPTIONS="--listen=0.0.0.0 --port=9392"' > /etc/sysconfig/gsad`
 
-systemctl start gsad`
+`systemctl start gsad`
 
 Now OpnVas Web interface can be accessed with https://[your IP address]:9392
 
