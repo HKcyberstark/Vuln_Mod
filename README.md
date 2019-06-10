@@ -34,12 +34,12 @@ Below are the basic system requirements for dev environment.  Higher memory and 
 
 ## Installation
 We would be Installing the above Open source tools in minimal install of [CentOS](https://www.centos.org/download/).
-step by step installation guides are docuumented in Installation-docs section
+step by step installation guides are docuumented in [installation-docs](https://github.com/HKcyberstark/Vuln_Mod/tree/master/installation-docs) section of this repository.
 
 ## How it works
 When the VulnWhisperer is configured for OpenVAS and is running, It pulls out the available scan reports from the OpenVAS and parses with json format. The data is stored locally [/opt/VulnWhisperer/data/openvas/] and processed by configured logstash.  the Kibana visualisation provided by Vulnwhisperer team provides out of the box analytical visualisation on the scanned data.
 
-Logstash and Kibana Visualisation configurations are available in config section of this repository. 
+Logstash and Kibana Visualisation configurations are available in [config](https://github.com/HKcyberstark/Vuln_Mod/tree/master/config) section of this repository. 
 
 ## Credits and References
 The module is an integration of OpenVas Vulnerability assesment tool wih Elastic stack using Vulnwhisperer. credits to all the brains behind these open source projects.
