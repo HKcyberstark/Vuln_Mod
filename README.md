@@ -1,5 +1,5 @@
 # Vuln_Mod
-An opensource vulnerability assessment module documenting the integration of OpenVAS with elastic stack using an VulnWhisperer.
+An opensource vulnerability assessment module documenting the integration of OpenVAS with elastic stack using VulnWhisperer.
 
 ## Overview
 Vulnerability assessment tool used for Vulnerability Testing, is an assesment performed to evaluate the security risks in the software system in order to reduce the probability of a threat.
